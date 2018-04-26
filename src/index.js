@@ -1,7 +1,11 @@
-﻿function component() {
-    var element = document.createElement('div');
+﻿require("./assets/scss/app.scss");
 
-    element.innerHTML = ['Hello', 'webpack'];
+function component() {
+    var element = document.createElement("div");
+
+    element.innerHTML = ["Hello", "webpack"];
+    element.classList.add("col-xs-5");
+    element.classList.add("test");
 
     return element;
 }
