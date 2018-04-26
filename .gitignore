@@ -3,3 +3,4 @@ node_modules
 !/dist/**/index.html
 /package-lock.json
 /yarn.lock
+/yarn-error.log
